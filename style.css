@@ -143,6 +143,7 @@ background: url('img/slide.png') -5% 59% no-repeat;
     display: flex;
     flex-wrap: wrap;
     padding-left: 60px;
+    justify-content: center;
 }
 .projects{
     width: 225px;
@@ -172,3 +173,45 @@ footer{
     max-width: 864px;
     margin: 0px auto;
 }
+
+/*********************ADAPTIVE*********************/
+
+@media screen and (max-width: 860px) {
+    .contacts li span{
+        padding-left: 0px;
+    }
+}
+@media screen and (max-width: 682px) {
+    main{
+        display: block;
+    }
+    .skills.ref{
+        background: none;
+    }
+    header{
+        padding: 30px 40px;
+    }
+}
+@media screen and (max-width: 560px) {
+   header{
+       display: block;
+       text-align: center;
+   }
+   footer{
+       text-align: center;
+   }
+}
+@media screen and (max-width: 432px) {
+    header{
+        padding: 20px 30px;
+    }
+    .aside-left{
+        padding: 20px;
+    }
+    .aside-right{
+        padding: 20px 40px 30px 10px;
+    }
+    footer{
+        text-align: center;
+    }
+ }
