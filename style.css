@@ -9,6 +9,9 @@
 ul{
     list-style-type: none;
 }
+
+/*************************HEADER*************************/
+
 header{
     padding: 60px 80px 50px 80px;
     background-color: #4c5eab;
@@ -48,6 +51,9 @@ h1{
 .contacts li span{
     padding-left: 28px;
 }
+
+/*********************************MAIN*****************************/
+
 main{
     display: flex;
     font-family: Montserrat;
@@ -59,6 +65,9 @@ h2{
     padding-top: 10px;
     padding-bottom: 25px;
 }
+
+/***************ASIDE-LEFT********************/
+
 .skills{
     padding-bottom: 40px;
 }
@@ -123,10 +132,38 @@ background: url('img/slide.png') -5% 59% no-repeat;
    color: #4c5eab;
    font-weight: bold;
 }
+
+/*******************ASIDE-RIGHT**********************/
+
 .aside-right{
     flex: 2;
-    padding: 40px 80px 50px 100px;
+    padding: 40px 80px 50px 15px;
 }
+.portfolio{
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 60px;
+}
+.projects{
+    width: 225px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0,0,0,0.05);
+    margin: 10px;
+}
+.widget{
+    height: 165px;
+    background-color: #d6d6d6;
+}
+h3{
+    padding-top: 25px;
+    font-size: 18px;
+}
+.projects p{
+    padding-bottom: 30px;
+    font-size: 18px;
+}
+/*************************FOOTER*********************/
+
 footer{
     background-color: #4d5fab;
     padding: 30px 80px;
